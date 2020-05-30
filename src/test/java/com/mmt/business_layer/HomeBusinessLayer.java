@@ -1,6 +1,6 @@
 package com.mmt.business_layer;
 
-import com.mmt.helpers.ServiceOption;
+import com.mmt.enums.ServiceOption;
 import com.mmt.pages.HomePage;
 
 public class HomeBusinessLayer {
@@ -11,8 +11,10 @@ public class HomeBusinessLayer {
     }
 
     public void selectHotel() {
-        homePage
-                .selectService(ServiceOption.HOTELS)
-                .search();
+        homePage.selectService(ServiceOption.HOTELS).search();
+    }
+
+    public void selectFlight() {
+        homePage.selectService(ServiceOption.FLIGHTS).search();
     }
 }

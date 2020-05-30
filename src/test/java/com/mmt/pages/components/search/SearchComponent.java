@@ -1,7 +1,7 @@
 package com.mmt.pages.components.search;
 
-import com.mmt.pages.BasePage;
+import com.mmt.pages.BaseUI;
 
-public abstract class SearchComponent extends BasePage {
+public abstract class SearchComponent extends BaseUI {
     abstract public void search();
 }

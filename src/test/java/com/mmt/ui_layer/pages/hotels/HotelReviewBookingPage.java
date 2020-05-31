@@ -1,6 +1,7 @@
 package com.mmt.ui_layer.pages.hotels;
 
 import com.mmt.data_models.Traveller;
+import com.mmt.ui_layer.pages.PaymentsPage;
 import com.mmt.ui_layer.pages.ReviewBookingPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -40,7 +41,8 @@ public class HotelReviewBookingPage extends ReviewBookingPage {
     }
 
     @Override
-    public void proceedToPay() {
+    public PaymentsPage proceedToPay() {
         findElement(paymentButton).click();
+        return new PaymentsPage();
     }
 }

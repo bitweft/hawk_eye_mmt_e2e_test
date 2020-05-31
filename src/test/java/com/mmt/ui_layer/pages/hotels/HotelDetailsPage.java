@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class HotelDetailsPage extends UILayer {
     private By roomName = By.cssSelector(".roomWrap .sticky :first-child");
     private By selectRoom = By.cssSelector(".roomWrap .primaryBtn");
-    private By roomSection = By.id("RoomType");
+    private By roomSection = By.id("navSticky");
 
     public HotelReviewBookingPage selectRoom() {
         scrollToElement(roomSection);

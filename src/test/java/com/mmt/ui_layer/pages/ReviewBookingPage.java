@@ -9,5 +9,5 @@ public abstract class ReviewBookingPage extends UILayer {
 
     public abstract ReviewBookingPage removeDonations();
 
-    public abstract void proceedToPay();
+    public abstract PaymentsPage proceedToPay();
 }

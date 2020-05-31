@@ -1,6 +1,5 @@
 package com.mmt;
 
-import com.mmt.business_layer.BookingBusinessLayer;
 import com.mmt.business_layer.HotelBusinessLayer;
 import com.mmt.helpers.DriverHelper;
 import com.mmt.helpers.RunHelper;
@@ -20,8 +19,10 @@ public class BookHotelTest {
 
     @Test
     public void shouldBeAbleToSelectHotelsAndProceedToCheckout() {
-        new HotelBusinessLayer().selectHotel();
-        new BookingBusinessLayer().confirmHotel();
+        HotelBusinessLayer hotelBusinessLayer = new HotelBusinessLayer();
+        hotelBusinessLayer.selectHotel();
+        hotelBusinessLayer.fillDetails();
+        hotelBusinessLayer.confirmHotel();
     }
     @AfterMethod
     public void teardown() {

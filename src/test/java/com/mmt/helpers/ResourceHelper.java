@@ -19,10 +19,6 @@ public class ResourceHelper {
         return getResourceObject(dataFileName, Data.class);
     }
 
-    public static <T> T getLocators(String dataFileName) {
-        return getResourceObject(dataFileName, Locators.class);
-    }
-
     private static <T> T getResourceObject(String resourceFileName, Class<? extends Annotation> annotation) {
         InputStream resourceAsStream = getInputStream(resourceFileName);
         Class<?> selectedClass = getSelectedClass(resourceFileName, annotation);

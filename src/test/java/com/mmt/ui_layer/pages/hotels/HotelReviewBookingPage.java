@@ -2,7 +2,7 @@ package com.mmt.ui_layer.pages.hotels;
 
 import com.mmt.data_models.Traveller;
 import com.mmt.ui_layer.pages.PaymentsPage;
-import com.mmt.ui_layer.pages.ReviewBookingPage;
+import com.mmt.ui_layer.base.ReviewBookingPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

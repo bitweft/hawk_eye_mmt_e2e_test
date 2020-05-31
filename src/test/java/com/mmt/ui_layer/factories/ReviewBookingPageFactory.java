@@ -3,7 +3,7 @@ package com.mmt.ui_layer.factories;
 import com.mmt.enums.CommonRunVariables;
 import com.mmt.enums.ServiceOption;
 import com.mmt.helpers.RunHelper;
-import com.mmt.ui_layer.pages.ReviewBookingPage;
+import com.mmt.ui_layer.base.ReviewBookingPage;
 import com.mmt.ui_layer.pages.hotels.HotelReviewBookingPage;
 
 public class ReviewBookingPageFactory {

@@ -1,6 +1,6 @@
 package com.mmt.ui_layer.components.search;
 
-import com.mmt.ui_layer.pages.SearchResultPage;
+import com.mmt.ui_layer.base.SearchResultPage;
 import com.mmt.ui_layer.pages.hotels.HotelSearchResultPage;
 import org.openqa.selenium.By;
 

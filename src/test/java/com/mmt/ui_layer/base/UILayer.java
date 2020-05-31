@@ -1,4 +1,4 @@
-package com.mmt.ui_layer;
+package com.mmt.ui_layer.base;
 
 import com.mmt.helpers.DriverHelper;
 import org.openqa.selenium.By;

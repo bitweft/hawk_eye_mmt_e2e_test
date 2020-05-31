@@ -1,7 +1,7 @@
 package com.mmt.ui_layer.components;
 
 import com.mmt.enums.ServiceOption;
-import com.mmt.ui_layer.UILayer;
+import com.mmt.ui_layer.base.UILayer;
 
 import static com.mmt.locators.ServiceOptionsHeaderLocator.getLocatorFor;
 

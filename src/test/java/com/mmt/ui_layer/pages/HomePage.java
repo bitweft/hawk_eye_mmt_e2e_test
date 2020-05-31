@@ -1,7 +1,8 @@
 package com.mmt.ui_layer.pages;
 
 import com.mmt.enums.ServiceOption;
-import com.mmt.ui_layer.UILayer;
+import com.mmt.ui_layer.base.SearchResultPage;
+import com.mmt.ui_layer.base.UILayer;
 import com.mmt.ui_layer.components.ServiceOptionsHeader;
 import com.mmt.ui_layer.components.search.SearchComponent;
 import com.mmt.ui_layer.factories.SearchComponentFactory;

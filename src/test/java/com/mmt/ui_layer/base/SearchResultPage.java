@@ -1,6 +1,5 @@
-package com.mmt.ui_layer.pages;
+package com.mmt.ui_layer.base;
 
-import com.mmt.ui_layer.UILayer;
 import com.mmt.ui_layer.pages.hotels.HotelDetailsPage;
 
 public abstract class SearchResultPage extends UILayer {

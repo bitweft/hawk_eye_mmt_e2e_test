@@ -2,7 +2,7 @@ package com.mmt.ui_layer.pages.hotels;
 
 import com.mmt.enums.HotelDetail;
 import com.mmt.helpers.RunHelper;
-import com.mmt.ui_layer.UILayer;
+import com.mmt.ui_layer.base.UILayer;
 import org.openqa.selenium.By;
 
 public class HotelDetailsPage extends UILayer {

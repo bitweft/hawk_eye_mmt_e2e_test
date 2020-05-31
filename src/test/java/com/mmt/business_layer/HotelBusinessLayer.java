@@ -10,6 +10,7 @@ import com.mmt.ui_layer.pages.HomePage;
 import com.mmt.ui_layer.pages.PaymentsPage;
 
 import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertTrue;
 
 public class HotelBusinessLayer {
 
@@ -46,6 +47,6 @@ public class HotelBusinessLayer {
 
         String actualRoomName = bookingSummary.getRoomName();
         String expectedRoomName = (String) RunHelper.getRunData(HotelDetail.ROOM_NAME);
-        assert actualRoomName.toLowerCase().contains(expectedRoomName.toLowerCase());
+        assertTrue(actualRoomName.toLowerCase().contains(expectedRoomName.toLowerCase()));
     }
 }
